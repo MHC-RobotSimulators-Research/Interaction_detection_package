@@ -1,0 +1,8 @@
+prefix=/home/imero/python_catkin/install
+
+Name: interaction
+Description: Description of interaction
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

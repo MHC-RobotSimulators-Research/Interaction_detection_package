@@ -1,0 +1,2 @@
+interaction
+-DCATKIN_DEVEL_PREFIX=/home/imero/python_catkin/devel -DCMAKE_INSTALL_PREFIX=/home/imero/python_catkin/install -G Unix Makefiles
