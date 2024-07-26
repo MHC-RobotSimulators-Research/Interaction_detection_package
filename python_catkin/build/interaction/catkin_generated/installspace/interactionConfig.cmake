@@ -67,14 +67,14 @@ set(interaction_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(interaction_SOURCE_PREFIX /home/imero/python_catkin/src/interaction)
-  set(interaction_DEVEL_PREFIX /home/imero/python_catkin/devel)
+  set(interaction_SOURCE_PREFIX /home/imero/Interaction_detection_package/python_catkin/src/interaction)
+  set(interaction_DEVEL_PREFIX /home/imero/Interaction_detection_package/python_catkin/devel)
   set(interaction_INSTALL_PREFIX "")
   set(interaction_PREFIX ${interaction_DEVEL_PREFIX})
 else()
   set(interaction_SOURCE_PREFIX "")
   set(interaction_DEVEL_PREFIX "")
-  set(interaction_INSTALL_PREFIX /home/imero/python_catkin/install)
+  set(interaction_INSTALL_PREFIX /home/imero/Interaction_detection_package/python_catkin/install)
   set(interaction_PREFIX ${interaction_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/imero/python_catkin/install/lib;/home/imero/python_catkin/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/imero/Interaction_detection_package/python_catkin/install/lib;/home/imero/raven/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

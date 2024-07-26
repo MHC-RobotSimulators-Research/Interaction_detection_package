@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from telemetrix import telemetrix
 import time
 import sys

@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/imero/python_catkin/build'
+export CMAKE_PREFIX_PATH="/home/imero/Interaction_detection_package/python_catkin/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/imero/Interaction_detection_package/python_catkin/devel/lib:$LD_LIBRARY_PATH"
+export PWD='/home/imero/Interaction_detection_package/python_catkin/build'
+export PYTHONPATH="/home/imero/Interaction_detection_package/python_catkin/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/imero/Interaction_detection_package/python_catkin/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/imero/Interaction_detection_package/python_catkin/src:$ROS_PACKAGE_PATH"

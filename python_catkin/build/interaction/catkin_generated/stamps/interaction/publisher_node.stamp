@@ -1,13 +1,13 @@
-#!/usr/bin/env
+#!/usr/bin/env python3
 import threading
 import rospy
 from std_msgs.msg import Bool
-from pyInteraction import pyInteraction  
+from interaction import pyInteraction 
 
 def talk_to_me(checkInteraction):
-    pub = rospy.Publisher('interaction', Bool, queue_size=10)
+    pub = rospy.Publisher('interaction', Bool, queue_size=1)
     rospy.init_node('publisher_node', anonymous=True)
-    rate = rospy.Rate(1000)
+    rate = rospy.Rate(500)
     rospy.loginfo("Publisher Node Started, now publishing msg")
     while not rospy.is_shutdown():
         pub.publish(checkInteraction.getInteract())

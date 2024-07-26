@@ -1,2 +1,2 @@
 interaction
--DCATKIN_DEVEL_PREFIX=/home/imero/python_catkin/devel -DCMAKE_INSTALL_PREFIX=/home/imero/python_catkin/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/imero/Interaction_detection_package/python_catkin/devel -DCMAKE_INSTALL_PREFIX=/home/imero/Interaction_detection_package/python_catkin/install -G Unix Makefiles

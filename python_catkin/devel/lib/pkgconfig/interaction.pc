@@ -1,4 +1,4 @@
-prefix=/home/imero/python_catkin/devel
+prefix=/home/imero/Interaction_detection_package/python_catkin/devel
 
 Name: interaction
 Description: Description of interaction

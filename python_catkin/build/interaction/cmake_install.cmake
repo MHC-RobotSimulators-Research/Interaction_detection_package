@@ -1,8 +1,8 @@
-# Install script for directory: /home/imero/python_catkin/src/interaction
+# Install script for directory: /home/imero/Interaction_detection_package/python_catkin/src/interaction
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/imero/python_catkin/install")
+  set(CMAKE_INSTALL_PREFIX "/home/imero/Interaction_detection_package/python_catkin/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,29 +38,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/imero/python_catkin/build/interaction/catkin_generated/installspace/interaction.pc")
+  include("/home/imero/Interaction_detection_package/python_catkin/build/interaction/catkin_generated/safe_execute_install.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/imero/Interaction_detection_package/python_catkin/build/interaction/catkin_generated/installspace/interaction.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interaction/cmake" TYPE FILE FILES
-    "/home/imero/python_catkin/build/interaction/catkin_generated/installspace/interactionConfig.cmake"
-    "/home/imero/python_catkin/build/interaction/catkin_generated/installspace/interactionConfig-version.cmake"
+    "/home/imero/Interaction_detection_package/python_catkin/build/interaction/catkin_generated/installspace/interactionConfig.cmake"
+    "/home/imero/Interaction_detection_package/python_catkin/build/interaction/catkin_generated/installspace/interactionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interaction" TYPE FILE FILES "/home/imero/python_catkin/src/interaction/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interaction" TYPE FILE FILES "/home/imero/Interaction_detection_package/python_catkin/src/interaction/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interaction" TYPE PROGRAM FILES "/home/imero/python_catkin/build/interaction/catkin_generated/installspace/publisher_node.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interaction" TYPE PROGRAM FILES "/home/imero/Interaction_detection_package/python_catkin/build/interaction/catkin_generated/installspace/publisher_node")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interaction" TYPE PROGRAM FILES "/home/imero/python_catkin/build/interaction/catkin_generated/installspace/subscriber_node.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interaction" TYPE PROGRAM FILES "/home/imero/python_catkin/build/interaction/catkin_generated/installspace/pyInteraction.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/interaction" TYPE PROGRAM FILES "/home/imero/Interaction_detection_package/python_catkin/build/interaction/catkin_generated/installspace/subscriber_node")
 endif()
 
