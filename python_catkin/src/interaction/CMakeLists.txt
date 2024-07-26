@@ -109,8 +109,8 @@ catkin_package(
 )
 
 catkin_install_python(PROGRAMS 
-	scripts/publisher_node.py
-	scripts/subscriber_node.py
+	scripts/publisher_node
+	scripts/subscriber_node
 	scripts/pyInteraction.py
 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
