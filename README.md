@@ -4,12 +4,22 @@
 A hardware module for detecting and differentiating arm interactions in the Raven-II surgical robot platform. This package enables accurate labeling of datasets for training force prediction machine learning models.
 Author: Mai Bui (bui23m@mtholyoke.edu)
 ## Background
-Raven-II is a research platform for minimally invasive robotically assisted surgery, developed by the Biorobotics Laboratory at the University of Washington, Seattle¹.
+Raven-II is a research platform for minimally invasive robotically assisted surgery, developed by the Biorobotics Laboratory at the University of Washington, Seattle.
 
 ![Screenshot 2024-11-18 at 10 37 55 PM](https://github.com/user-attachments/assets/86c70b14-0580-475d-8ea6-ca7c4a751bcd)
 
 Figure 1: Raven-II surgical robot platform
-While the platform offers robust hardware, it lacks haptic feedback—a crucial element in surgeon's decision-making². Various approaches have been proposed to add haptic feedback, with machine learning-based force prediction being one of the most common methods³,⁴. Training these models requires datasets labeled with force or interaction data, but existing labeling methods often struggle to differentiate between robot arms⁵.
+An Arduino-based hardware solution that addresses a critical challenge in surgical robotics: accurate labeling of robot-tissue interaction datasets. By detecting and differentiating between arm interactions in the Raven-II surgical robot platform, this package solves the problem of creating accurately labeled datasets for:
+
+* Training force prediction models to develop haptic feedback systems
+* Validating robot-tissue interaction detection
+
+### Key Features:
+
+* Real-time interaction detection
+* Distinct identification of individual robot arms
+* Automated dataset labeling
+* Integration with ROS ecosystem
 ## Hardware Requirements
 ### Arduino Setup
 
