@@ -17,9 +17,13 @@ pip install telemetrix
 ```
 Besides, for Arduino IDE to work, you need to upload Telemetrix4Arduino Sketch by following this instruction from MrYsLab: <a href="https://mryslab.github.io/telemetrix/telemetrix4arduino/" target="_blank">Telemetrix4Arduino</a>
 To create the conductive phantom, you need to buy: woven copper+nickle plated polyester conductive cloth, Loctite Clear Silicone Waterproof Sealant.
+
  ![Screenshot 2024-11-18 at 9 36 13 PM](https://github.com/user-attachments/assets/5e157052-6179-45c9-825f-b847e90b65aa)
+ 
 Arduino Setup:
+
 ![Screenshot 2024-11-18 at 9 37 14 PM](https://github.com/user-attachments/assets/43ad7e48-0bda-453c-a99d-495ce9cd3be2)
+
 ### Installation
 Git clone: 
 ```
