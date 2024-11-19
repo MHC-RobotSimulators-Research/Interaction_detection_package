@@ -20,6 +20,11 @@ An Arduino-based hardware solution that addresses a critical challenge in surgic
 * Distinct identification of individual robot arms
 * Automated dataset labeling
 * Integration with ROS ecosystem
+
+### System workflow
+
+![Screenshot 2024-11-18 at 7 52 46 PM](https://github.com/user-attachments/assets/73ef2092-11c9-4b7b-8c51-71446af26d10)
+
 ## Hardware Requirements
 ### Arduino Setup
 
