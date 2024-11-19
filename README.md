@@ -6,9 +6,8 @@ Author: Mai Bui (bui23m@mtholyoke.edu)
 ## Background
 Raven-II is a research platform for minimally invasive robotically assisted surgery, developed by the Biorobotics Laboratory at the University of Washington, Seattle.
 
-![Screenshot 2024-11-18 at 10 37 55 PM](https://github.com/user-attachments/assets/86c70b14-0580-475d-8ea6-ca7c4a751bcd)
+<img src="https://github.com/user-attachments/assets/86c70b14-0580-475d-8ea6-ca7c4a751bcd" width="500" alt="Raven-II surgical robot platform" />
 
-Figure 1: Raven-II surgical robot platform
 An Arduino-based hardware solution that addresses a critical challenge in surgical robotics: accurate labeling of robot-tissue interaction datasets. By detecting and differentiating between arm interactions in the Raven-II surgical robot platform, this package solves the problem of creating accurately labeled datasets for:
 
 * Training force prediction models to develop haptic feedback systems
@@ -23,7 +22,7 @@ An Arduino-based hardware solution that addresses a critical challenge in surgic
 
 ### System workflow
 
-![Screenshot 2024-11-18 at 7 52 46 PM](https://github.com/user-attachments/assets/73ef2092-11c9-4b7b-8c51-71446af26d10)
+<img src="https://github.com/user-attachments/assets/73ef2092-11c9-4b7b-8c51-71446af26d10" width="500" alt="System workflow" />
 
 ## Hardware Requirements
 ### Arduino Setup
