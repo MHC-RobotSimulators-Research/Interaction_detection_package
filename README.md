@@ -13,24 +13,26 @@ While the platform offers robust hardware, it lacks haptic feedback—a crucial 
 ## Hardware Requirements
 ### Arduino Setup
 
-![Screenshot 2024-11-18 at 9 37 14 PM](https://github.com/user-attachments/assets/43ad7e48-0bda-453c-a99d-495ce9cd3be2)
+<img src="https://github.com/user-attachments/assets/43ad7e48-0bda-453c-a99d-495ce9cd3be2" width="500" alt="Arduino Setup" />
 
 ### Conductive Phantom Materials
 * Woven copper+nickel plated polyester conductive cloth
 * Loctite Clear Silicone Waterproof Sealant
 
- ![Screenshot 2024-11-18 at 9 36 13 PM](https://github.com/user-attachments/assets/5e157052-6179-45c9-825f-b847e90b65aa)
- 
+<img src="https://github.com/user-attachments/assets/5e157052-6179-45c9-825f-b847e90b65aa" width="500" alt="Conductive Phantom" />
+
 ## Software Requirements
 ### Tested Platform
 * Ubuntu 20.04
 * Python 3.8
 * ROS Noetic
 * Arduino Nano
-### Dependencies
-* <a href="[https://readme.com/](https://github.com/collaborative-robotics/crtk_python_client)" target="_blank">CRTK Python Client</a>
-* <a href="[https://readme.com/](https://github.com/collaborative-robotics/crtk_msgs)" target="_blank">CRTK Messages</a>
-* <a href="[https://readme.com/](https://github.com/MHC-RobotSimulators-Research/Raven2_Dual_Platform_Controller)" target="_blank">Raven2 Dual Platform Controller</a>
+### Dependencies   
+* [CRTK Python Client](https://github.com/collaborative-robotics/crtk_python_client)
+
+* [CRTK Messages](https://github.com/collaborative-robotics/crtk_msgs)
+
+* [Raven2 Dual Platform Controller](https://github.com/MHC-RobotSimulators-Research/Raven2_Dual_Platform_Controller)
 * rospy
 ### Arduino 
 * telematrix
