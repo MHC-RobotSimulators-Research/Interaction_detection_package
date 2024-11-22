@@ -3,7 +3,8 @@
 ## Overview
 A hardware module for detecting and differentiating arm interactions in the Raven-II surgical robot platform. This package enables accurate labeling of datasets for training force prediction machine learning models.
 Author: Mai Bui (bui23m@mtholyoke.edu)
-![](https://github.com/MHC-RobotSimulators-Research/Interaction_detection_package/blob/main/assets/Interaction.gif)
+<img src="https://github.com/MHC-RobotSimulators-Research/Interaction_detection_package/blob/main/assets/Interaction.gif" width="500"/>
+
 For clearer demonstration, visit this link: [Video Description](https://youtu.be/wmM0a1F54_w)
 ## Background
 Raven-II is a research platform for minimally invasive robotically assisted surgery, developed by the Biorobotics Laboratory at the University of Washington, Seattle.
